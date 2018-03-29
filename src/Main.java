@@ -15,11 +15,15 @@ public class Main {
         for (int i = 0; i < n; i++) {
             // Space
             for (int y = 0; y < n-(i+1); y++) {
-                System.out.print(" ");
+                System.out.print("O");
             }
             // Star
             for (int y = 0; y < (i+1)*2; y++) {
                 System.out.print("*");
+            }
+            // Space
+            for (int y = 0; y < n-(i+1); y++) {
+                System.out.print("O");
             }
             // End Line
             System.out.println();
@@ -27,11 +31,15 @@ public class Main {
         for (int i = n-1; i >= 0; i--) {
             // Space
             for (int y = 0; y < n-(i+1); y++) {
-                System.out.print(" ");
+                System.out.print("O");
             }
             // Star
             for (int y = 0; y < (i+1)*2; y++) {
                 System.out.print("*");
+            }
+            // Space
+            for (int y = 0; y < n-(i+1); y++) {
+                System.out.print("O");
             }
             // End Line
             System.out.println();
